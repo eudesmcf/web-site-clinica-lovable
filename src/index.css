@@ -8,33 +8,53 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --background: 196 100% 98%;
+    --foreground: 225 15% 20%;
 
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 225 15% 20%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 225 15% 20%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 195 100% 55%;
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 45 100% 85%;
+    --secondary-foreground: 225 15% 20%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 196 50% 95%;
+    --muted-foreground: 225 10% 50%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 315 70% 80%;
+    --accent-foreground: 225 15% 20%;
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive-foreground: 0 0% 100%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 196 30% 90%;
+    --input: 196 30% 95%;
+    --ring: 195 100% 55%;
+
+    --success: 142 76% 36%;
+    --success-foreground: 0 0% 100%;
+
+    --warning: 38 92% 50%;
+    --warning-foreground: 225 15% 20%;
+
+    --info: 195 100% 55%;
+    --info-foreground: 0 0% 100%;
+
+    /* Gradientes coloridos e lúdicos */
+    --gradient-primary: linear-gradient(135deg, hsl(195 100% 55%), hsl(215 100% 65%));
+    --gradient-secondary: linear-gradient(135deg, hsl(45 100% 85%), hsl(60 100% 75%));
+    --gradient-accent: linear-gradient(135deg, hsl(315 70% 80%), hsl(280 70% 75%));
+    --gradient-hero: linear-gradient(135deg, hsl(196 100% 98%), hsl(195 50% 95%));
+
+    /* Sombras suaves */
+    --shadow-soft: 0 4px 20px hsl(195 100% 55% / 0.1);
+    --shadow-medium: 0 8px 30px hsl(195 100% 55% / 0.15);
+    --shadow-large: 0 15px 40px hsl(195 100% 55% / 0.2);
 
     --radius: 0.5rem;
 

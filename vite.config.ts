@@ -5,6 +5,9 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
+  // Use base '/' em desenvolvimento para evitar 404 local;
+  // em produção (build) use o caminho do repositório para GitHub Pages
+  base: mode === 'development' ? '/' : '/web-site-clinica-lovable/',
   server: {
     host: "::",
     port: 8080,

@@ -12,7 +12,7 @@ export default defineConfig(({ mode }) => ({
     // (útil para GitHub Pages com domínio customizado). Se quiser publicar
     // em um subpath (ex: '/movikids-website/'), ajuste a variável de ambiente
     // VITE_BASE ou modifique aqui.
-    base: process.env.VITE_BASE || (mode === 'development' ? '/' : '/'),
+    base: '/',
   server: {
     host: "::",
     port: 8080,
